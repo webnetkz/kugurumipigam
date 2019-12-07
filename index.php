@@ -17,6 +17,12 @@
 
 </head>
 <body>
+  <a href="#" class="fix">
+    <img src="public/img/p.png">
+  </a>
+  <a href="#" class="fix1">
+    <img src="public/img/w.png">
+  </a>
   <header>
     <img src="public/img/logo.png">
     <div class="line">
@@ -183,7 +189,144 @@
       </div>
     </div>
   </div>
+
+  <div class="midl2" id="2">
+    <h1>ДЕТСКИЕ КИГУРУМИ</h1>
+
+
+    <div class="navigate">
+      <img src="public/img/1.png">
+    </div>
+    <div class="posts">
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+      <div class="cartItem">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="" name="size" class="getSize">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub">
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
             </form>
+  <div class="frame"></div>
+  <footer>
+      <div class="footContent">
+        <h1>КОНТАКТЫ</h1>
+        <p><b>Обработка заказов:</b> Пн-Пт 10-19 (Алматы). Заказы на сайте принимаются ежедневно и круглосуточно.</p>
+        <p><b>Телефон:</b> +7 (777) 777-77-77</p>
+        <p><b>Адрес:</b> г. Алматы, проспект Фурманова 189 </p>
+        <p><b>Электронная почта:</b> info@9304080750.ru</p>
+        <h2>КАРТА</h2>
+      </div>
+  </footer>
+    <div class="foot"></div>
 
     <script src="public/js/js.js"></script>
 </body>
