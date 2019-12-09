@@ -19,6 +19,10 @@ body {
     background-size: 40px;
     background-repeat: no-repeat;
     z-index: 9999;
+    transition-duration: 500ms;
+}
+.mag:hover {
+    box-shadow: 0 0 20px rgb(65,17,102);
 }
 .numMag {
     position: relative;
@@ -33,6 +37,7 @@ body {
     border-radius: 4px;
     border: 1px solid rgb(255, 255, 255);
     background-color: red;
+    animation: spin 1s infinite;
 }
 .fix {
     position: fixed;
@@ -49,6 +54,22 @@ body {
 }
 .fix1 > img {
     height: 50px;
+}
+.fix1:hover {
+    animation: go 1s infinite;
+}
+.fix:hover {
+    animation: go 1s infinite;
+}
+@keyframes spin {
+    50% {
+        transform: scale(1.2);
+    }
+}
+@keyframes go {
+    50% {
+        transform: scale(2)
+    }
 }
 header {
     padding-top: 20px;
@@ -154,9 +175,12 @@ menu > img {
     color: rgb(255, 255, 255);
     padding: 25px 10px;
     font-weight: 100;
+    transition-duration: 500ms;
 }
 .menuItem:hover {
     background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    box-shadow: 0 -15px 25px rgb(225,194,234);
 }
 .h1text {
     margin-top: 5em;
@@ -177,7 +201,6 @@ h1 > span {
 /*****************************************/
 .midl1, .midl2 {
     box-sizing: border-box;
-    height: 1000px;
     padding-left: 20%;
     padding-right: 10%;
 }
@@ -275,6 +298,11 @@ h1 > span {
     border-radius: 3px;
     outline: none;
 }
+.size:hover {
+    background-color: rgb(255,228,0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 .size:focus {
     background-color: rgb(255,228,0);
     color: rgb(255, 255, 255);
@@ -364,6 +392,7 @@ footer {
 /*****************************************/
 .headFilter {
     margin-bottom: 1em;
+    width: 100%;
 }
 .filter {
     position: relative;
@@ -375,7 +404,7 @@ footer {
 }
 .textFilter {
     position: relative;
-    display: inline;
+    display: inline-block;
     font-size: 0.8em;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(140, 140, 140);
@@ -449,4 +478,19 @@ footer {
 .btnFilter:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(172,69,212);
+}
+div.panel > option {
+    width: 100%;
+    background-color: rgb(172,69,212);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    transition-duration: 700ms;
+    padding: 3px;
+}
+div.panel > option:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(172,69,212);
+    cursor: pointer;
 }

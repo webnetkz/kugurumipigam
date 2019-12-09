@@ -53,9 +53,9 @@
     <div class="content">
       <menu>
         <img src="public/img/star.png">
-        <a href="#1" class="menuItem">ВЗРОСЛЫЕ <br> КИГУРУМИ</a>
+        <a href="#onePosts" class="menuItem">ВЗРОСЛЫЕ <br> КИГУРУМИ</a>
         <img src="public/img/star.png">
-        <a href="#" class="menuItem">ДЕТСКИЕ <br> КИГУРУМИ</a>
+        <a href="#twoPosts" class="menuItem">ДЕТСКИЕ <br> КИГУРУМИ</a>
         <img src="public/img/star.png">
         <a href="#" class="menuItem">ТАПКИ - <br> ЛАПКИ</a>
         <img src="public/img/star.png">
@@ -81,43 +81,50 @@
       <div class="navFilter">
         <button class="accordion">МАТЕРИАЛ</button>
         <div class="panel">
-          <p>Ответ на Вопрос 1...</p>
+          <p</p>
         </div>
 
         <button class="accordion">ЦВЕТ</button>
         <div class="panel">
-          <p>Ответ на Вопрос 2...</p>
+
         </div>
 
         <button class="accordion">ТИП ЗАСТЕЖКИ</button>
         <div class="panel">
-          <p>Ответ на Вопрос 3 ...</p>
+          <option value="molniya" onclick="goFilter(this);">молния</option>
+          <option value="pugovica" onclick="goFilter(this);">пуговицы</option>
         </div>
 
         <button class="accordion">ХВОСТ</button>
         <div class="panel">
-          <p>Ответ на Вопрос 3 ...</p>
+          <option value="hvost" onclick="goFilter(this);">есть</option>
+          <option value="nhvost" onclick="goFilter(this);">нету</option>
         </div>
 
         <button class="accordion">КАРМАНЫ</button>
         <div class="panel">
-          <p>Ответ на Вопрос 3 ...</p>
+          <option value="carman" onclick="goFilter(this);">есть</option>
+          <option value="ncarman" onclick="goFilter(this);">нету</option>
         </div>
 
         <button class="accordion">РАЗМЕР</button>
         <div class="panel">
-          <p>Ответ на Вопрос 3 ...</p>
+          <option value="S" onclick="goFilter(this);">S</option>
+          <option value="M" onclick="goFilter(this);">M</option>
+          <option value="L" onclick="goFilter(this);">L</option>
+          <option value="XL" onclick="goFilter(this);">XL</option>
+          <option value="XXL" onclick="goFilter(this);">XXL</option>
         </div>
-
-        <button class="btnFilter">ПОКАЗАТЬ</button>
+            <button class="btnFilter">ПОКАЗАТЬ</button>
       </div>
     </div>
-    <div class="posts">
-      <div class="cartItem" id="kigurumi">
+    <div class="posts" id="onePosts">
+
+      <div class="cartItem S">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">S size</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -126,7 +133,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="kigurumi" name="name">
+            <input type="hidden" value="Ssize" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
@@ -136,11 +143,11 @@
       </form>
       </div>
 
-      <div class="cartItem"  id="newK">
+      <div class="cartItem M">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">M size</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -149,7 +156,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="newK" name="name">
+            <input type="hidden" value="Msize" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
@@ -159,130 +166,158 @@
       </form>
       </div>
 
-      <div class="cartItem">
-      <form action="">
+      <div class="cartItem hvost">
+      <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">С хвостом</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Хвост" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
 
-      <div class="cartItem">
-      <form action="">
+      <div class="cartItem molniya">
+      <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">На молнии</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="На_Молнии" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
 
-      <div class="cartItem">
-      <form action="">
+      <div class="cartItem pugovica">
+      <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">На пуговицах</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="На_пуговицах" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
 
-      <div class="cartItem">
-      <form action="">
+      <div class="cartItem M">
+      <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">М размер</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Msize" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
+      
 
       
       
     </div>
   </div>
 
-  <div class="midl2" id="2">
+  <div class="midl2" id="twoPosts">
     <h1>ДЕТСКИЕ КИГУРУМИ</h1>
-
-
     <div class="navigate">
-      <img src="public/img/1.png">
-    </div>
-    <div class="posts">
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
-        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
-          <div class="blockSize">
-            <input type="button" class="size" value="S" onclick="getSize(this.value);">
-            <input type="button" class="size" value="M" onclick="getSize(this.value);">
-            <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
-          </div>
-        <p>
-          <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
-          </p>
-        </p>
+      <div class="headFilter">
+        <img src="public/img/filter.png" class="filter">
+        <p class="textFilter">Подбор параметров</p>
       </div>
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
+      <div class="navFilter">
+        <button class="accordion">МАТЕРИАЛ</button>
+        <div class="panel">
+          <p</p>
+        </div>
+
+        <button class="accordion">ЦВЕТ</button>
+        <div class="panel">
+
+        </div>
+
+        <button class="accordion">ТИП ЗАСТЕЖКИ</button>
+        <div class="panel">
+          <option value="molniya" onclick="goFilter1(this);">молния</option>
+          <option value="pugovica" onclick="goFilter1(this);">пуговицы</option>
+        </div>
+
+        <button class="accordion">ХВОСТ</button>
+        <div class="panel">
+          <option value="hvost" onclick="goFilter1(this);">есть</option>
+          <option value="nhvost" onclick="goFilter1(this);">нету</option>
+        </div>
+
+        <button class="accordion">КАРМАНЫ</button>
+        <div class="panel">
+          <option value="carman" onclick="goFilter1(this);">есть</option>
+          <option value="ncarman" onclick="goFilter1(this);">нету</option>
+        </div>
+
+        <button class="accordion">РАЗМЕР</button>
+        <div class="panel">
+          <option value="S" onclick="goFilter1(this);">S</option>
+          <option value="M" onclick="goFilter1(this);">M</option>
+          <option value="L" onclick="goFilter1(this);">L</option>
+          <option value="XL" onclick="goFilter1(this);">XL</option>
+          <option value="XXL" onclick="goFilter1(this);">XXL</option>
+        </div>
+            <button class="btnFilter">ПОКАЗАТЬ</button>
+      </div>
+    </div>
+    <div class="posts" id="onePosts">
+
+      <div class="cartItem S">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">S size</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -290,91 +325,138 @@
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Ssize" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
+      </form>
       </div>
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
+
+      <div class="cartItem M">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">M size</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Msize" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
+      </form>
       </div>
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
+
+      <div class="cartItem hvost">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">С хвостом</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Хвост" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
+      </form>
       </div>
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
+
+      <div class="cartItem molniya">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">На молнии</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="На_Молнии" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
+      </form>
       </div>
-      <div class="cartItem">
-        <img src="public/img/35.png" class="sale">
+
+      <div class="cartItem pugovica">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">Единорог бирюзовый кигуруми с рогом, ушками и хвостом</p>
+        <p class="headText">На пуговицах</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
             <input type="button" class="size" value="M" onclick="getSize(this.value);">
             <input type="button" class="size" value="L" onclick="getSize(this.value);">
-            <input type="button" class="size" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
-            <input type="hidden" value="" name="size" class="getSize">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="На_пуговицах" name="name">
           </div>
         <p>
           <p class="sum">17 500 тг.
-            <input type="submit" value="в корзину" class="sub">
+            <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
+      </form>
       </div>
+
+      <div class="cartItem M">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
+        <img src="public/img/kig.png" class="imgItem">
+        <p class="headText">М размер</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Msize" name="name">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub" name="sub">
+          </p>
+        </p>
+      </form>
+      </div>
+      
+
+      
+      
     </div>
+
+    
   </div>
             
   <div class="frame"></div>
@@ -391,5 +473,6 @@
     <div class="foot"></div>
 
     <script src="public/js/js.js"></script>
+    <script src="public/js/filter.js"></script>
 </body>
 </html>
