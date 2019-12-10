@@ -9,11 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="public/css/mstyle.css">
-    <link rel="stylesheet" href="public/css/style.css">
     <link rel="icon" href="public/img/favicon.png" type="image/png">
 
     <title>KUGURUMIPIGAM</title>
+
+    <script>
+      var w = screen.width;
+      if(w < 700) {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "public/css/mstyle.css";
+        document.head.appendChild(link);
+      } else {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "public/css/style.css";
+        document.head.appendChild(link);
+      }
+    </script>
 
 </head>
 <body>
@@ -57,12 +70,12 @@
         <img src="public/img/star.png">
         <a href="#twoPosts" class="menuItem">ДЕТСКИЕ <br> КИГУРУМИ</a>
         <img src="public/img/star.png">
-        <a href="#" class="menuItem">ТАПКИ - <br> ЛАПКИ</a>
-        <img src="public/img/star.png">
-        <a href="#" class="menuItem">ПЕРЧАТКИ - <br> ЛАПКИ</a>
-        <img src="public/img/star.png">
-        <a href="#" class="menuItem">КИГУРУМИ <br> СО СКИДКОЙ</a>
-        <img src="public/img/star.png">
+        <a href="#" class="menuItem none">ТАПКИ - <br> ЛАПКИ</a>
+        <img src="public/img/star.png" class="none">
+        <a href="#" class="menuItem none">ПЕРЧАТКИ - <br> ЛАПКИ</a>
+        <img src="public/img/star.png" class="none">
+        <a href="#" class="menuItem none">КИГУРУМИ <br> СО СКИДКОЙ</a>
+        <img src="public/img/star.png" class="none">
       </menu>
       <div class="h1text">
         <h1 class="h1">ЗАБАВНЫЕ ПИЖАМЫ</h1>
@@ -120,11 +133,11 @@
     </div>
     <div class="posts" id="onePosts">
 
-      <div class="cartItem S">
+      <div class="cartItem S M L XL XXL molniya carman">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">S size</p>
+        <p class="headText">MEGO SIZE</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
