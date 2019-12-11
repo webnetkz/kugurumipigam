@@ -247,7 +247,7 @@ h1 > span {
     vertical-align: top;
     display: inline-block;
     width: 30%;
-    height: 400px;
+    height: 440px;
     border: 3px solid rgb(225,194,234);
     border-radius: 10px;
     margin-left: 1%;
@@ -255,10 +255,11 @@ h1 > span {
     background-color: white;
 }
 .imgItem {
-    height: 270px;
-    margin-top: 10px;
-    width: 80%;
-    margin-left: 10%;
+    height: 310px;
+    margin-top: 2px;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 8px;
 } 
 .headText {
     padding-left: 3px;
