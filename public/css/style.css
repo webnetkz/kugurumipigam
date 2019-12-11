@@ -199,10 +199,20 @@ h1 > span {
 /*****************************************/
 /*****************************************/
 /*****************************************/
+#twoPosts {
+    background: url('../img/foot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#twoPosts > h1 {
+    color: rgb(255, 255, 255);
+}
 .midl1, .midl2 {
     box-sizing: border-box;
     padding-left: 20%;
     padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .midl1 > h1 {
     color: rgb(163,43,199);
@@ -354,6 +364,7 @@ footer {
     height: 634px;
     background-size: cover;
     box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
 }
 .footContent {
     padding-top: 6em;
@@ -493,4 +504,45 @@ div.panel > option:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(172,69,212);
     cursor: pointer;
+}
+
+.about {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.about > h1 {
+    color: rgb(111,38,177);
+    text-align: center;
+    margin: 2em 0;
+    font-weight: 100;
+}
+.aboutText {
+    color: rgb(98, 98, 98);
+}
+.aboutImg {
+    margin-top: 1em;
+    margin-bottom: 4em;
+    display: inline-block;
+    width: 60%;
+}
+.aboutImg2 {
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 4em
+}
+.gImg {
+    width: 50%;
+    height: 15em;
+}
+.gImg1 {
+    width: 40%;
+    height: 15em;
+}
+.gImg3 {
+    width: 30%;
+}
+pre {
+    font-family: sans-serif;
+    color: rgb(98, 98, 98);
 }
