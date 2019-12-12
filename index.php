@@ -52,6 +52,7 @@
         margin: 10px;
         padding: 5px;
         border-radius: 8px;
+        outline: none;
       }
     </style>
 </head>
@@ -59,10 +60,10 @@
   <div id="modal">
     <form action="app/send" method="POST">
       <p>
-        <input type="text" name="name" placeholder="Ваше имя" class="inp">
+        <input type="text" name="name" placeholder="Ваше имя" class="inp" required>
       </p>
       <p>
-        <input type="text" name="phone" placeholder="Ваш номер телефона" class="inp">
+        <input type="text" name="phone" placeholder="Ваш номер телефона" class="inp" required>
       </p>
       <p>
         <input type="submit" name="send" value="Заказать" class="inp">
@@ -221,8 +222,8 @@
       <div class="cartItem hvost">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">С хвостом</p>
+        <img src="public/img/post/3.jpg" class="imgItem">
+        <p class="headText">Кигуруми Дракон Спайро воплощает</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -244,8 +245,8 @@
       <div class="cartItem molniya">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">На молнии</p>
+        <img src="public/img/post/4.jpg" class="imgItem">
+        <p class="headText">Забавный инопланетянен Стич</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -267,8 +268,8 @@
       <div class="cartItem pugovica">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">На пуговицах</p>
+        <img src="public/img/post/5.jpg" class="imgItem">
+        <p class="headText">Hello Kitty - это костюм самой модной кошечки в мире.</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -290,8 +291,8 @@
       <div class="cartItem M">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">М размер</p>
+        <img src="public/img/post/6.jpg" class="imgItem">
+        <p class="headText">Панда</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -368,8 +369,31 @@
       <div class="cartItem S">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">S size</p>
+        <img src="public/img/post/12.jpg" class="imgItem">
+        <p class="headText">Красный дракон</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Ssize" name="name">
+          </div>
+        <p>
+          <p class="sum">17 500 тг.
+            <input type="submit" value="в корзину" class="sub" name="sub">
+          </p>
+        </p>
+      </form>
+      </div>
+
+      <div class="cartItem S">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
+        <img src="public/img/post/13.jpg" class="imgItem">
+        <p class="headText">Тигр</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -391,8 +415,8 @@
       <div class="cartItem M">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">M size</p>
+        <img src="public/img/post/7.jpg" class="imgItem">
+        <p class="headText">Пикачу</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -414,8 +438,8 @@
       <div class="cartItem hvost">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">С хвостом</p>
+        <img src="public/img/post/8.jpg" class="imgItem">
+        <p class="headText">Розовый дракоша</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -437,8 +461,8 @@
       <div class="cartItem molniya">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">На молнии</p>
+        <img src="public/img/post/9.jpg" class="imgItem">
+        <p class="headText">Жараф</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -460,8 +484,8 @@
       <div class="cartItem pugovica">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">На пуговицах</p>
+        <img src="public/img/post/10.jpg" class="imgItem">
+        <p class="headText">Котик Тоторо</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -483,8 +507,8 @@
       <div class="cartItem M">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/kig.png" class="imgItem">
-        <p class="headText">М размер</p>
+        <img src="public/img/post/11.jpg" class="imgItem">
+        <p class="headText">Зеленый дракон</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
