@@ -200,9 +200,10 @@ h1 > span {
 /*****************************************/
 /*****************************************/
 #twoPosts {
-    background: url('../img/foot.png');
+    background: url('../img/foot.png') 0px -10px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: rgb(114,38,178);
 }
 #twoPosts > h1 {
     color: rgb(255, 255, 255);
@@ -210,7 +211,7 @@ h1 > span {
 .midl1, .midl2 {
     box-sizing: border-box;
     padding-left: 20%;
-    padding-right: 10%;
+    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -226,28 +227,20 @@ h1 > span {
     margin: 1em 0;
     font-weight: 100;
 }
-.navigate {
-    display: inline-block;
-    height: 100%;
-    width: 20%;
-    vertical-align: top;
-}
-.navigate > img {
-    width: 95%;
-}
+
 
 
 .posts {
     vertical-align: top;
     display: inline-block;
     height: 100%;
-    width: 74%;
+    width: 100%;
 }
 .cartItem {
     vertical-align: top;
     display: inline-block;
     width: 30%;
-    height: 440px;
+    height: 480px;
     border: 3px solid rgb(225,194,234);
     border-radius: 10px;
     margin-left: 1%;
@@ -255,16 +248,17 @@ h1 > span {
     background-color: white;
 }
 .imgItem {
-    height: 310px;
+    height: 350px;
     margin-top: 2px;
     width: 98%;
     margin-left: 1%;
     border-radius: 8px;
+    object-fit: cover;
 } 
 .headText {
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 0.7em;
+    font-size: 1em;
     color: rgb(104,37,173);
     text-align: center;
     font-weight: 600;

@@ -132,7 +132,7 @@ header > input {
 /*****************************************/
 .midl {
     box-sizing: border-box;
-    background: url('../img/headBG.png') 10%;
+    background: url('../img/headBG.png') 50%;
     background-repeat: no-repeat;
     height: 634px;
     background-size: cover;
@@ -172,6 +172,7 @@ menu > img {
 }
 .h1text {
     margin-top: 5em;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .h1 {
     color: rgb(255, 255, 255);
@@ -222,26 +223,27 @@ h1 > span {
     width: 100%;
 }
 .cartItem {
-    vertical-align: top;
-    display: inline-block;
-    width: 70%;
-    height: 400px;
+    display: block;
+    width: 80%;
+    height: 480px;
     border: 3px solid rgb(225,194,234);
     border-radius: 10px;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 1em;
     background-color: white;
 }
 .imgItem {
-    height: 270px;
-    margin-top: 10px;
-    width: 80%;
-    margin-left: 10%;
-} 
+    height: 350px;
+    margin-top: 2px;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 8px;
+    object-fit: cover;
+}  
 .headText {
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 0.7em;
+    font-size: 1em;
     color: rgb(104,37,173);
     text-align: center;
     font-weight: 600;

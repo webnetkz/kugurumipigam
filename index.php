@@ -77,7 +77,7 @@
       }
     ?>
   </div>
-  <a href="#" class="fix">
+  <a href="tel:+77475803283" class="fix">
     <img src="public/img/p.png">
   </a>
   <a href="#" class="fix1">
@@ -87,7 +87,7 @@
     <img src="public/img/logo.png">
     <div class="line">
       <img src="public/img/phone.png">
-      <p class="phone">+7 (777) 777-77-77</p>
+      <p class="phone">+7 (747) 580 32 83</p>
       <br>
       <a href="#" class="linkPhone">Обратный звонок</a>
     </div>
@@ -106,15 +106,11 @@
     <div class="content">
       <menu>
         <img src="public/img/star.png">
-        <a href="#onePosts" class="menuItem">ВЗРОСЛЫЕ <br> КИГУРУМИ</a>
+        <a href="#twoPosts" class="menuItem">КИГУРУМИ</a>
         <img src="public/img/star.png">
-        <a href="#twoPosts" class="menuItem">ДЕТСКИЕ <br> КИГУРУМИ</a>
+        <a href="#size" class="menuItem">КАК ПОДОБРАТЬ РАЗМЕР</a>
         <img src="public/img/star.png">
-        <a href="#" class="menuItem none">ТАПКИ - <br> ЛАПКИ</a>
-        <img src="public/img/star.png" class="none">
-        <a href="#" class="menuItem none">ПЕРЧАТКИ - <br> ЛАПКИ</a>
-        <img src="public/img/star.png" class="none">
-        <a href="#" class="menuItem none">КИГУРУМИ <br> СО СКИДКОЙ</a>
+        <a href="#contact" class="menuItem none">КОНТАКТЫ</a>
         <img src="public/img/star.png" class="none">
       </menu>
       <div class="h1text">
@@ -124,56 +120,15 @@
       </div>
     </div>
   </div>
-  <div class="midl1" id="1">
-    <h1>ВЗРОСЛЫЕ КИГУРУМИ</h1>   
-    <div class="navigate">
-      <div class="headFilter">
-        <img src="public/img/filter.png" class="filter">
-        <p class="textFilter">Подбор параметров</p>
-      </div>
-      <div class="navFilter">
-        <button class="accordion">МАТЕРИАЛ</button>
-        <div class="panel">
-          <p</p>
-        </div>
 
-        <button class="accordion">ЦВЕТ</button>
-        <div class="panel">
 
-        </div>
-
-        <button class="accordion">ТИП ЗАСТЕЖКИ</button>
-        <div class="panel">
-          <option value="molniya" onclick="goFilter(this);">молния</option>
-          <option value="pugovica" onclick="goFilter(this);">пуговицы</option>
-        </div>
-
-        <button class="accordion">ХВОСТ</button>
-        <div class="panel">
-          <option value="hvost" onclick="goFilter(this);">есть</option>
-          <option value="nhvost" onclick="goFilter(this);">нету</option>
-        </div>
-
-        <button class="accordion">КАРМАНЫ</button>
-        <div class="panel">
-          <option value="carman" onclick="goFilter(this);">есть</option>
-          <option value="ncarman" onclick="goFilter(this);">нету</option>
-        </div>
-
-        <button class="accordion">РАЗМЕР</button>
-        <div class="panel">
-          <option value="S" onclick="goFilter(this);">S</option>
-          <option value="M" onclick="goFilter(this);">M</option>
-          <option value="L" onclick="goFilter(this);">L</option>
-          <option value="XL" onclick="goFilter(this);">XL</option>
-          <option value="XXL" onclick="goFilter(this);">XXL</option>
-        </div>
-            <button class="btnFilter">ПОКАЗАТЬ</button>
-      </div>
-    </div>
+  <div class="midl2" id="twoPosts">
+    <h1>КИГУРУМИ</h1>
+    
+    
     <div class="posts" id="onePosts">
 
-      <div class="cartItem S M L XL XXL molniya carman">
+    <div class="cartItem S M L XL XXL molniya carman">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/1.jpg" class="imgItem">
@@ -189,7 +144,7 @@
             <input type="hidden" value="Ssize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -212,7 +167,7 @@
             <input type="hidden" value="Msize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -223,7 +178,7 @@
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/3.jpg" class="imgItem">
-        <p class="headText">Кигуруми Дракон Спайро воплощает</p>
+        <p class="headText">Дракон Спайро</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -235,7 +190,7 @@
             <input type="hidden" value="Хвост" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">9.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -258,7 +213,7 @@
             <input type="hidden" value="На_Молнии" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -281,7 +236,7 @@
             <input type="hidden" value="На_пуговицах" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -304,67 +259,12 @@
             <input type="hidden" value="Msize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
-      
-
-      
-      
-    </div>
-  </div>
-
-  <div class="midl2" id="twoPosts">
-    <h1>ДЕТСКИЕ КИГУРУМИ</h1>
-    <div class="navigate">
-      <div class="headFilter">
-        <img src="public/img/filter.png" class="filter">
-        <p class="textFilter">Подбор параметров</p>
-      </div>
-      <div class="navFilter">
-        <button class="accordion">МАТЕРИАЛ</button>
-        <div class="panel">
-          <p</p>
-        </div>
-
-        <button class="accordion">ЦВЕТ</button>
-        <div class="panel">
-
-        </div>
-
-        <button class="accordion">ТИП ЗАСТЕЖКИ</button>
-        <div class="panel">
-          <option value="molniya" onclick="goFilter1(this);">молния</option>
-          <option value="pugovica" onclick="goFilter1(this);">пуговицы</option>
-        </div>
-
-        <button class="accordion">ХВОСТ</button>
-        <div class="panel">
-          <option value="hvost" onclick="goFilter1(this);">есть</option>
-          <option value="nhvost" onclick="goFilter1(this);">нету</option>
-        </div>
-
-        <button class="accordion">КАРМАНЫ</button>
-        <div class="panel">
-          <option value="carman" onclick="goFilter1(this);">есть</option>
-          <option value="ncarman" onclick="goFilter1(this);">нету</option>
-        </div>
-
-        <button class="accordion">РАЗМЕР</button>
-        <div class="panel">
-          <option value="S" onclick="goFilter1(this);">S</option>
-          <option value="M" onclick="goFilter1(this);">M</option>
-          <option value="L" onclick="goFilter1(this);">L</option>
-          <option value="XL" onclick="goFilter1(this);">XL</option>
-          <option value="XXL" onclick="goFilter1(this);">XXL</option>
-        </div>
-            <button class="btnFilter">ПОКАЗАТЬ</button>
-      </div>
-    </div>
-    <div class="posts" id="onePosts">
 
       <div class="cartItem S">
       <form action="" method="POST">
@@ -382,7 +282,7 @@
             <input type="hidden" value="Ssize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">9.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -405,7 +305,7 @@
             <input type="hidden" value="Ssize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">9.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -428,7 +328,7 @@
             <input type="hidden" value="Msize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -451,7 +351,7 @@
             <input type="hidden" value="Хвост" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">9.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -474,7 +374,7 @@
             <input type="hidden" value="На_Молнии" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -497,7 +397,7 @@
             <input type="hidden" value="На_пуговицах" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
@@ -520,14 +420,58 @@
             <input type="hidden" value="Msize" name="name">
           </div>
         <p>
-          <p class="sum">17 500 тг.
+          <p class="sum">9.000 тг.
+            <input type="submit" value="в корзину" class="sub" name="sub">
+          </p>
+        </p>
+      </form>
+      </div>
+
+      <div class="cartItem M">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
+        <img src="public/img/post/14.jpg" class="imgItem">
+        <p class="headText">Розовый Стич</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Msize" name="name">
+          </div>
+        <p>
+          <p class="sum">8.000 тг.
             <input type="submit" value="в корзину" class="sub" name="sub">
           </p>
         </p>
       </form>
       </div>
       
-
+      <div class="cartItem M">
+      <form action="" method="POST">
+        <img src="public/img/25.png" class="sale">
+        <img src="public/img/post/15.jpg" class="imgItem">
+        <p class="headText">Радужный Единорог</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Msize" name="name">
+          </div>
+        <p>
+          <p class="sum">8.000 тг.
+            <input type="submit" value="в корзину" class="sub" name="sub">
+          </p>
+        </p>
+      </form>
+      </div>
       
       
     </div>
@@ -535,7 +479,7 @@
     
   </div>
             
-  <div class="about">
+  <div class="about" id="size">
       <h1>КАК ПРАВИЛЬНО ПОДОБРАТЬ РАЗМЕР ВАШЕГО <span>КИГУРУМИ</span> ?</h1>
 
       <p class="aboutText">Пижамы Кигуруми пошиты из высококачественного флиса (coral fleece/велсофт). Это нежный, мягкий, теплый материал, который не только хорошо сохраняет тепло, но и превосходно выводит избыток влаги.</p>
@@ -615,10 +559,10 @@
         <br>
   </div>
   <footer>
-      <div class="footContent">
+      <div class="footContent" id="contact">
         <h1>КОНТАКТЫ</h1>
         <p><b>Обработка заказов:</b> Пн-Пт 10-19 (Алматы). Заказы на сайте принимаются ежедневно и круглосуточно.</p>
-        <p><b>Телефон:</b> +7 (777) 777-77-77</p>
+        <p><b>Телефон:</b> +7 (747) 580 32 83</p>
         <p><b>Адрес:</b> г. Алматы, проспект Фурманова 189 </p>
         <p><b>Электронная почта:</b> info@9304080750.ru</p>
         <h2>КАРТА</h2>
