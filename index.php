@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" href="public/img/favicon.png" type="image/png">
+    <link rel="icon" href="public/img/mini_logo.png" type="image/png">
 
-    <title>KUGURUMIPIGAM</title>
+    <title>KIGURUMIPIGAM</title>
 
     <script>
       var w = screen.width;
@@ -28,8 +28,47 @@
       }
     </script>
 
+    <style>
+      #modal {
+        display: none;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 8888;
+      }
+      #modal > form {
+        position: relative;
+        text-align: center;
+        width: 30%;
+        top: 40%;
+        left: 35%;
+        border: 1px solid rgb(155, 22, 125);
+        background-color: rgba(155, 22, 112, 0.3);
+        border-radius: 30px;
+        padding: 2em;
+      }
+      .inp {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 8px;
+      }
+    </style>
 </head>
 <body>
+  <div id="modal">
+    <form action="app/send" method="POST">
+      <p>
+        <input type="text" name="name" placeholder="Ваше имя" class="inp">
+      </p>
+      <p>
+        <input type="text" name="phone" placeholder="Ваш номер телефона" class="inp">
+      </p>
+      <p>
+        <input type="submit" name="send" value="Заказать" class="inp">
+      </p>
+    </form>
+  </div>
   <div class="mag">
     <?php
       if(!empty($_SESSION['num'])) {
@@ -136,7 +175,7 @@
       <div class="cartItem S M L XL XXL molniya carman">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/post/1.JPG" class="imgItem">
+        <img src="public/img/post/1.jpg" class="imgItem">
         <p class="headText">Котенок Чи</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
@@ -159,7 +198,7 @@
       <div class="cartItem M">
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
-        <img src="public/img/post/2.JPG" class="imgItem">
+        <img src="public/img/post/2.jpg" class="imgItem">
         <p class="headText">Единорог жёлтый</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
@@ -565,5 +604,11 @@
 
     <script src="public/js/js.js"></script>
     <script src="public/js/filter.js"></script>
+    <script>
+      var mag = document.querySelector('.mag');
+      mag.onclick = function() {
+        modal.style.display = 'block';
+      }
+    </script>
 </body>
 </html>

@@ -9,6 +9,6 @@
             $_SESSION['zakaz'] .= 'size = '.$size.', ';
             $_SESSION['zakaz'] .= 'name = '.$name.'; ';
             $_SESSION['num']++;
-            header('Location: index.php#'.$name);
+            header('Location: index');
         }
     }
