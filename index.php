@@ -89,7 +89,7 @@
       <img src="public/img/phone.png">
       <p class="phone">+7 (747) 580 32 83</p>
       <br>
-      <a href="#" class="linkPhone">Обратный звонок</a>
+      <a href="tel:+77475803283" class="linkPhone">Обратный звонок</a>
     </div>
     <div class="line">
       <a href="#">
@@ -141,7 +141,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Ssize" name="name">
+            <input type="hidden" value="Котенок Чи" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -164,7 +164,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Единорог жёлтый" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -187,7 +187,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Хвост" name="name">
+            <input type="hidden" value="Дракон Спайро" name="name">
           </div>
         <p>
           <p class="sum">9.000 тг.
@@ -210,7 +210,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="На_Молнии" name="name">
+            <input type="hidden" value="Забавный инопланетянен Стич" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -224,7 +224,7 @@
       <form action="" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/5.jpg" class="imgItem">
-        <p class="headText">Hello Kitty - это костюм самой модной кошечки в мире.</p>
+        <p class="headText">Hello Kitty - это костюм самой модной кошечки в мире</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
           <div class="blockSize">
             <input type="button" class="size" value="S" onclick="getSize(this.value);">
@@ -233,7 +233,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="На_пуговицах" name="name">
+            <input type="hidden" value="ello Kitty - это костюм самой модной кошечки в мире" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -256,7 +256,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Панда" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -279,7 +279,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Ssize" name="name">
+            <input type="hidden" value="Красный дракон" name="name">
           </div>
         <p>
           <p class="sum">9.000 тг.
@@ -302,7 +302,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Ssize" name="name">
+            <input type="hidden" value="Тигр" name="name">
           </div>
         <p>
           <p class="sum">9.000 тг.
@@ -325,7 +325,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Пикачу" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -348,7 +348,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Хвост" name="name">
+            <input type="hidden" value="Розовый дракоша" name="name">
           </div>
         <p>
           <p class="sum">9.000 тг.
@@ -371,7 +371,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="На_Молнии" name="name">
+            <input type="hidden" value="Жараф" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -394,7 +394,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="На_пуговицах" name="name">
+            <input type="hidden" value="Котик Тоторо" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -417,7 +417,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Зеленый дракон" name="name">
           </div>
         <p>
           <p class="sum">9.000 тг.
@@ -440,7 +440,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Розовый Стич" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
@@ -463,7 +463,7 @@
             <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
             <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
             <input type="hidden" value="XL" name="size" class="getSize">
-            <input type="hidden" value="Msize" name="name">
+            <input type="hidden" value="Радужный Единорог" name="name">
           </div>
         <p>
           <p class="sum">8.000 тг.
