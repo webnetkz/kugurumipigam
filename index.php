@@ -80,7 +80,7 @@
   <a href="tel:+77475803283" class="fix">
     <img src="public/img/p.png">
   </a>
-  <a href="#" class="fix1">
+  <a href="https://wa.me/77475803283" class="fix1">
     <img src="public/img/w.png">
   </a>
   <header>
@@ -92,7 +92,7 @@
       <a href="tel:+77475803283" class="linkPhone">Обратный звонок</a>
     </div>
     <div class="line">
-      <a href="#">
+      <a href="https://www.instagram.com/p/B5pLftRn2kG/?igshid=1klfoqb689z54">
         <img src="public/img/insta.png" class="insta">
       </a>
     </div>
@@ -553,7 +553,8 @@
           Хорошая терморегуляция;
           Яркость и насыщенность цветов;
           Антибактериальные свойства;
-          Гипоаллергенность (не вызывает аллергию)!
+          Гипоаллергенность 
+          (не вызывает аллергию)!
         </pre>
       </p>
         <br>
@@ -564,7 +565,7 @@
         <p><b>Обработка заказов:</b> Пн-Пт 10-19 (Алматы). Заказы на сайте принимаются ежедневно и круглосуточно.</p>
         <p><b>Телефон:</b> +7 (747) 580 32 83</p>
         <p><b>Адрес:</b> г. Алматы, проспект Фурманова 189 </p>
-        <p><b>Электронная почта:</b> info@9304080750.ru</p>
+        <p><b>Электронная почта:</b> info@kigurumipigam.kz</p>
         <h2>КАРТА</h2>
       </div>
   </footer>

@@ -132,7 +132,7 @@ header > input {
 /*****************************************/
 .midl {
     box-sizing: border-box;
-    background: url('../img/headBG.png') 50%;
+    background: url('../img/headBG2.png') 50%;
     background-repeat: no-repeat;
     height: 634px;
     background-size: cover;
@@ -170,7 +170,7 @@ menu > img {
     display: none;
 }
 .h1text {
-    margin-top: 5em;
+    margin-top: 1em;
     background-color: rgba(255, 255, 255, 0.2);
 }
 .h1 {
@@ -536,5 +536,5 @@ pre {
 }
 .a2 {
     display: block;
-    width: 90%;
+    width: 100%;
 }
