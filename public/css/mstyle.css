@@ -145,20 +145,19 @@ header > input {
 menu {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-    height: 80px;
+    height: 150px;
     padding: 1px 20px;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 menu > img {
     height: 1em;
-    margin-top: 35px;
+    margin-top: 1px;
 }
 .menuItem {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 25px 10px;
+    padding: 5px 10px;
     font-weight: 100;
     transition-duration: 500ms;
 }
@@ -276,7 +275,7 @@ h1 > span {
 }
 .blockSize {
     position: relative;
-    left: 37%;
+    left: 33%;
     top: -5px;
 }
 .size {
@@ -534,4 +533,8 @@ pre {
 }
 #twoPosts > h1 {
     color: rgb(255, 255, 255);
+}
+.a2 {
+    display: block;
+    width: 90%;
 }

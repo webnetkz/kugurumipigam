@@ -6,8 +6,8 @@
         if(!empty($_SESSION['size'])) {
             $size = $_SESSION['size'];
             $name = $_POST['name'];
-            $_SESSION['zakaz'] .= 'size = '.$size.', ';
-            $_SESSION['zakaz'] .= 'name = '.$name.'; ';
+            $_SESSION['zakaz'] .= 'Размер: '.$size.', ';
+            $_SESSION['zakaz'] .= 'Наименование: '.$name.'; ';
             $_SESSION['num']++;
             header('Location: index');
         }

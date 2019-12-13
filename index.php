@@ -110,7 +110,7 @@
         <img src="public/img/star.png">
         <a href="#size" class="menuItem">КАК ПОДОБРАТЬ РАЗМЕР</a>
         <img src="public/img/star.png">
-        <a href="#contact" class="menuItem none">КОНТАКТЫ</a>
+        <a href="#contact" class="menuItem">КОНТАКТЫ</a>
         <img src="public/img/star.png" class="none">
       </menu>
       <div class="h1text">
@@ -506,7 +506,7 @@
       </p>
       <img src="public/img/about2.png" class="aboutImg">
       <img src="public/img/about1.png" class="aboutImg2">
-      <img src="public/img/a1.png">
+      <img src="public/img/a1.png"  class="a2">
         <br>
         <br>
         <br>
@@ -536,7 +536,7 @@
       </p>
         <br>
         <br>
-      <img src="public/img/a2.png">
+      <img src="public/img/a2.png" class="a2">
         <br>
         <br>
         <br>
