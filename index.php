@@ -33,8 +33,13 @@
 <body>
   <div id="modal">
       <div class="zak">
-        <?=$_SESSION['zakaz']?>
+        <?php
+        if(!empty($_SESSION['zakaz'])) {
+          echo $_SESSION['zakaz'];
+        } 
+        ?>
       </div>
+      <p class="closeModal" onclick="location.reload();">Закрыть</p>
     <form action="app/send" method="POST">
       <p>
         <input type="text" name="name" placeholder="Ваше имя" class="inp" required autocomplete="off">
@@ -106,7 +111,7 @@
     <div class="posts" id="onePosts">
 
     <div class="cartItem S M L XL XXL molniya carman">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/1.jpg" class="imgItem">
         <p class="headText">Котенок Чи</p>
@@ -129,7 +134,7 @@
       </div>
 
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/2.jpg" class="imgItem">
         <p class="headText">Единорог жёлтый</p>
@@ -152,7 +157,7 @@
       </div>
 
       <div class="cartItem hvost">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/3.jpg" class="imgItem">
         <p class="headText">Дракон Спайро</p>
@@ -175,7 +180,7 @@
       </div>
 
       <div class="cartItem molniya">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/4.jpg" class="imgItem">
         <p class="headText">Забавный инопланетянен Стич</p>
@@ -198,7 +203,7 @@
       </div>
 
       <div class="cartItem pugovica">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/5.jpg" class="imgItem">
         <p class="headText">Hello Kitty - это костюм самой модной кошечки в мире</p>
@@ -221,7 +226,7 @@
       </div>
 
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/6.jpg" class="imgItem">
         <p class="headText">Панда</p>
@@ -244,7 +249,7 @@
       </div>
 
       <div class="cartItem S">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/12.jpg" class="imgItem">
         <p class="headText">Красный дракон</p>
@@ -267,7 +272,7 @@
       </div>
 
       <div class="cartItem S">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/13.jpg" class="imgItem">
         <p class="headText">Тигр</p>
@@ -290,7 +295,7 @@
       </div>
 
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/7.jpg" class="imgItem">
         <p class="headText">Пикачу</p>
@@ -313,7 +318,7 @@
       </div>
 
       <div class="cartItem hvost">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/8.jpg" class="imgItem">
         <p class="headText">Розовый дракоша</p>
@@ -336,7 +341,7 @@
       </div>
 
       <div class="cartItem molniya">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/9.jpg" class="imgItem">
         <p class="headText">Жараф</p>
@@ -359,7 +364,7 @@
       </div>
 
       <div class="cartItem pugovica">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/10.jpg" class="imgItem">
         <p class="headText">Котик Тоторо</p>
@@ -382,7 +387,7 @@
       </div>
 
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/25.png" class="sale">
         <img src="public/img/post/11.jpg" class="imgItem">
         <p class="headText">Зеленый дракон</p>
@@ -405,7 +410,7 @@
       </div>
 
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/14.jpg" class="imgItem">
         <p class="headText">Розовый Стич</p>
@@ -428,7 +433,7 @@
       </div>
       
       <div class="cartItem M">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/15.jpg" class="imgItem">
         <p class="headText">Радужный Единорог</p>
@@ -451,7 +456,7 @@
       </div>
       
       <div class="cartItem">
-      <form action="" method="POST">
+      <form action="app/get" method="POST">
         <img src="public/img/35.png" class="sale">
         <img src="public/img/post/16.jpg" class="imgItem">
         <p class="headText">Лев</p>

@@ -573,7 +573,7 @@ pre {
     background-color: rgb(122, 39, 183);
     box-shadow: 0 0 30px rgb(0, 0, 0);
     border-radius: 30px;
-    padding: 2em;
+    padding: 1em;
     box-sizing: border-box;
   }
   .inp {
@@ -606,4 +606,15 @@ pre {
   }
   .inp:focus {
     box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  .closeModal {
+    position: fixed;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
   }

@@ -3,6 +3,7 @@ function getSize(event) {
     submit.value = event;
 }
 
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
