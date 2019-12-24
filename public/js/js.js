@@ -1,13 +1,15 @@
 function getSize(event) {
-    var submit = document.querySelector('.getSize');
-    submit.value = event;
+    var submit = document.querySelectorAll('.getSize');
+    for(let i = 0; i < submit.length; i++) {
+      submit[i].value = event;
+      console.log(submit[i]);
+    }
 }
 
 
 var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
+for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
