@@ -12,6 +12,7 @@
     <link rel="icon" href="public/img/mini_logo.png" type="image/png">
 
     <title>KIGURUMIPIGAM</title>
+	
 
     <script>
       var w = screen.width;
@@ -28,45 +29,21 @@
       }
     </script>
 
-    <style>
-      #modal {
-        display: none;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 8888;
-      }
-      #modal > form {
-        position: relative;
-        text-align: center;
-        width: 30%;
-        top: 40%;
-        left: 35%;
-        border: 1px solid rgb(155, 22, 125);
-        background-color: rgba(155, 22, 112, 0.3);
-        border-radius: 30px;
-        padding: 2em;
-      }
-      .inp {
-        margin: 10px;
-        padding: 5px;
-        border-radius: 8px;
-        outline: none;
-      }
-    </style>
 </head>
 <body>
   <div id="modal">
+      <div class="zak">
+        <?=$_SESSION['zakaz']?>
+      </div>
     <form action="app/send" method="POST">
       <p>
-        <input type="text" name="name" placeholder="Ваше имя" class="inp" required>
+        <input type="text" name="name" placeholder="Ваше имя" class="inp" required autocomplete="off">
       </p>
       <p>
-        <input type="text" name="phone" placeholder="Ваш номер телефона" class="inp" required>
+        <input type="text" name="phone" placeholder="Ваш номер телефона" class="inp" required  autocomplete="off">
       </p>
       <p>
-        <input type="submit" name="send" value="Заказать" class="inp">
+        <input type="submit" name="send" value="Заказать" class="inpBtn">
       </p>
     </form>
   </div>
@@ -96,9 +73,9 @@
         <img src="public/img/insta.png" class="insta">
       </a>
     </div>
-    <div class="line2">
+    <!--<div class="line2">
       <a href="#"><img src="public/img/adressMap.png" class="map"><img src="public/img/adress.png" class="insta"></a>
-    </div>
+    </div>-->
     <input type="text" placeholder="   Поиск">
   </header>
 
@@ -116,7 +93,7 @@
       <div class="h1text">
         <h1 class="h1">ЗАБАВНЫЕ ПИЖАМЫ</h1>
         <h1 class="h1"><span>КИГУРУМИ </span> ДЛЯ</h1>
-        <h1 class="h1">ВСЕ СЕМЬИ!</h1>
+        <h1 class="h1">ВСЕЙ СЕМЬИ!</h1>
       </div>
     </div>
   </div>
@@ -130,7 +107,7 @@
 
     <div class="cartItem S M L XL XXL molniya carman">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/1.jpg" class="imgItem">
         <p class="headText">Котенок Чи</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -153,7 +130,7 @@
 
       <div class="cartItem M">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/2.jpg" class="imgItem">
         <p class="headText">Единорог жёлтый</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -199,7 +176,7 @@
 
       <div class="cartItem molniya">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/4.jpg" class="imgItem">
         <p class="headText">Забавный инопланетянен Стич</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -222,7 +199,7 @@
 
       <div class="cartItem pugovica">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/5.jpg" class="imgItem">
         <p class="headText">Hello Kitty - это костюм самой модной кошечки в мире</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -245,7 +222,7 @@
 
       <div class="cartItem M">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/6.jpg" class="imgItem">
         <p class="headText">Панда</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -314,7 +291,7 @@
 
       <div class="cartItem M">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/7.jpg" class="imgItem">
         <p class="headText">Пикачу</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -360,7 +337,7 @@
 
       <div class="cartItem molniya">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/9.jpg" class="imgItem">
         <p class="headText">Жараф</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -383,7 +360,7 @@
 
       <div class="cartItem pugovica">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/10.jpg" class="imgItem">
         <p class="headText">Котик Тоторо</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -429,7 +406,7 @@
 
       <div class="cartItem M">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/14.jpg" class="imgItem">
         <p class="headText">Розовый Стич</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -452,7 +429,7 @@
       
       <div class="cartItem M">
       <form action="" method="POST">
-        <img src="public/img/25.png" class="sale">
+        <img src="public/img/35.png" class="sale">
         <img src="public/img/post/15.jpg" class="imgItem">
         <p class="headText">Радужный Единорог</p>
         <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
@@ -473,6 +450,28 @@
       </form>
       </div>
       
+      <div class="cartItem">
+      <form action="" method="POST">
+        <img src="public/img/35.png" class="sale">
+        <img src="public/img/post/16.jpg" class="imgItem">
+        <p class="headText">Лев</p>
+        <p class="line1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> Размер</span></p>
+          <div class="blockSize">
+            <input type="button" class="size" value="S" onclick="getSize(this.value);">
+            <input type="button" class="size" value="M" onclick="getSize(this.value);">
+            <input type="button" class="size" value="L" onclick="getSize(this.value);">
+            <input type="button" class="size sizeActive" value="XL" onclick="getSize(this.value);">
+            <input type="button" class="size" value="XXL" onclick="getSize(this.value);">
+            <input type="hidden" value="XL" name="size" class="getSize">
+            <input type="hidden" value="Лев" name="name">
+          </div>
+        <p>
+          <p class="sum">8.000 тг.
+            <input type="submit" value="в корзину" class="sub" name="sub">
+          </p>
+        </p>
+      </form>
+      </div>
       
     </div>
 
@@ -564,9 +563,7 @@
         <h1>КОНТАКТЫ</h1>
         <p><b>Обработка заказов:</b> Пн-Пт 10-19 (Алматы). Заказы на сайте принимаются ежедневно и круглосуточно.</p>
         <p><b>Телефон:</b> +7 (747) 580 32 83</p>
-        <!--<p><b>Адрес:</b> г. Алматы, проспект Фурманова 189 </p>-->
         <p><b>Электронная почта:</b> info@kigurumipigam.kz</p>
-        <!--<h2>КАРТА</h2>-->
       </div>
   </footer>
     <div class="foot"></div>

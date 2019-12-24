@@ -138,9 +138,12 @@ header > input {
     text-align: center;
     margin-left: 20px;
     font-size: 1.3em;
+    transition-duration: 600ms;
+    outline: none;
 }
 header > input:focus {
     background: none;
+    width: 150px;
 }
 /*****************************************/
 /*****************************************/
@@ -541,3 +544,67 @@ pre {
     font-family: sans-serif;
     color: rgb(98, 98, 98);
 }
+#modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    background: url('../img/head2.png');
+    background-size: cover;
+    z-index: 899888;  
+  }
+  .zak {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+  }
+  #modal > form {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    top: 60%;
+    left: 35%;
+    border: 1px solid rgb(155, 22, 125);
+    background-color: rgb(122, 39, 183);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+.inp {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    text-align: center;
+    transition-duration: 800ms;
+}
+.inpBtn {
+    margin: 10px;
+    padding: 17px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: rgb(122, 39, 183);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition-duration: 300ms;
+    box-sizing: border-box;
+  }
+  .inpBtn:hover {
+    box-shadow: none;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .inp:focus {
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 9px 30px;
+
+  }

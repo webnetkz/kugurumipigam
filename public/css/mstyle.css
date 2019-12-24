@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
 body {
     font-family: sans-serif;
     background-color: rgb(250,247,247);
+	width: 100%;
+	overflow-x: hidden;
 }
 .mag {
     background-attachment: fixed;
@@ -171,6 +177,7 @@ menu > img {
 }
 .h1text {
     margin-top: 1em;
+    padding: 1em;
     background-color: rgba(255, 255, 255, 0.2);
 }
 .h1 {
@@ -538,3 +545,65 @@ pre {
     display: block;
     width: 100%;
 }
+#modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    background: url('../img/head2.png');
+    background-size: cover;
+    z-index: 899888;  
+  }
+  .zak {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+  }
+  #modal > form {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    top: 50%;
+    left: 5%;
+    border: 1px solid rgb(155, 22, 125);
+    background-color: rgb(122, 39, 183);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 2em;
+    box-sizing: border-box;
+  }
+  .inp {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    text-align: center;
+    transition-duration: 800ms;
+  }
+  .inpBtn {
+    margin: 10px;
+    padding: 17px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: rgb(122, 39, 183);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition-duration: 300ms;
+  }
+  .inpBtn:hover {
+    box-shadow: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px;
+  }
+  .inp:focus {
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
